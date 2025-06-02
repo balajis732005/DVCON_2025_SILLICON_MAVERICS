@@ -1,0 +1,7 @@
+To Run The AI Accelertor:
+
+iverilog -o outputFile src/rtl/cnn_core.v src/testbench/cnn_core_tb.v
+
+vvp outputFile
+
+gtkwave dump.vcd
